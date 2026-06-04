@@ -2,11 +2,10 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { getGameBySlug, getGames, getArticles, isSupabaseReady } from "@/lib/data";
+import { getGameBySlug, getGames, getArticles } from "@/lib/data";
 import type { Metadata } from "next";
 
 export async function generateStaticParams() {
-  if (isSupabaseReady()) return [];
   const games = await getGames();
   return games.map((g) => ({ slug: g.slug }));
 }

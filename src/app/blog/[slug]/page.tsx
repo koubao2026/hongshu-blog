@@ -4,12 +4,10 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ReadingProgress from "@/components/ReadingProgress";
 import ArticleCard from "@/components/ArticleCard";
-import { getArticleBySlug, getArticles, getCategories, getTags, getCategoryById, getRelatedArticles, getTagById, isSupabaseReady, type Tag } from "@/lib/data";
+import { getArticleBySlug, getArticles, getCategories, getTags, getCategoryById, getRelatedArticles, getTagById, type Tag } from "@/lib/data";
 import type { Metadata } from "next";
 
 export async function generateStaticParams() {
-  // 无Supabase时从本地JSON生成路径；有Supabase时返回空（需ISR或动态渲染）
-  if (isSupabaseReady()) return [];
   const articles = await getArticles();
   return articles.map((a) => ({ slug: a.slug }));
 }
