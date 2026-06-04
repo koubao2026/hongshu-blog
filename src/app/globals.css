@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+:root {
+  /* 主色系 */
+  --color-primary: #1B4332;
+  --color-primary-light: #2D6A4F;
+  --color-primary-dark: #0F2A1D;
+
+  /* 强调色 */
+  --color-accent: #E67E22;
+  --color-accent-hover: #D35400;
+  --color-accent-soft: #FDEBD0;
+
+  /* 背景系 */
+  --color-bg: #FDFAF6;
+  --color-bg-card: #F4F1DE;
+  --color-bg-alt: #F7F5F0;
+
+  /* 文字系 */
+  --color-text: #2D3748;
+  --color-text-secondary: #718096;
+  --color-text-light: #A0AEC0;
+  --color-text-on-primary: #FDFAF6;
+
+  /* 边框 */
+  --color-border: #E2E0D5;
+  --color-border-light: #EDE9DD;
+
+  /* 状态色 */
+  --color-success: #38A169;
+  --color-warning: #D69E2E;
+  --color-error: #E53E3E;
+
+  /* 字体 */
+  --font-serif-cn: 'LXGW WenKai', 'Noto Serif SC', 'Source Han Serif SC', serif;
+  --font-display: 'Playfair Display', 'LXGW WenKai', serif;
+  --font-body: 'Lora', 'LXGW WenKai', serif;
+  --font-ui: 'Inter', 'Noto Sans SC', sans-serif;
+
+  /* 间距 */
+  --max-width-content: 680px;
+  --max-width-page: 1200px;
+  --max-width-card: 360px;
+}
+
+/* 全局基础样式 */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  line-height: 1.8;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  color: var(--color-primary);
+}
+
+/* 翻牌卡片动画 */
+.card-perspective {
+  perspective: 1000px;
+}
+
+.card-inner {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.card-perspective:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  inset: 0;
+}
+
+/* 手机端点击翻牌 */
+.card-flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+/* 弹幕墙关键词浮动动画 */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.keyword-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.keyword-float-delay-1 { animation-delay: 0.5s; }
+.keyword-float-delay-2 { animation-delay: 1s; }
+.keyword-float-delay-3 { animation-delay: 1.5s; }
+.keyword-float-delay-4 { animation-delay: 2s; }
+
+/* 阅读进度条 */
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(to right, var(--color-accent), var(--color-primary));
+  z-index: 100;
+  transition: width 0.1s;
+}
+
+/* 文章正文排版 */
+.article-content {
+  max-width: var(--max-width-content);
+  margin: 0 auto;
+}
+
+.article-content p {
+  margin-bottom: 1.5em;
+  line-height: 1.8;
+}
+
+.article-content h2 {
+  font-size: 1.5rem;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}
+
+.article-content h3 {
+  font-size: 1.25rem;
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+}
+
+.article-content ul, .article-content ol {
+  margin-bottom: 1.5em;
+  padding-left: 1.5em;
+}
+
+.article-content li {
+  margin-bottom: 0.5em;
+}
+
+.article-content strong {
+  color: var(--color-primary);
+}

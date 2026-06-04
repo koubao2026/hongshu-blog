@@ -1,0 +1,141 @@
+{
+  "categories": [
+    { "id": 1, "name": "教学思考", "slug": "teaching", "description": "桌游教育方法论与实践反思" },
+    { "id": 2, "name": "使用指南", "slug": "guide", "description": "桌游教育场景使用建议" },
+    { "id": 3, "name": "秒评", "slug": "review", "description": "快速桌游评测与推荐" },
+    { "id": 4, "name": "课程设计", "slug": "course", "description": "玩AI课程与桌游设计课" }
+  ],
+  "tags": [
+    { "id": 1, "name": "策略思维", "slug": "strategy" },
+    { "id": 2, "name": "合作桌游", "slug": "cooperative" },
+    { "id": 3, "name": "空间推理", "slug": "spatial" },
+    { "id": 4, "name": "亲子桌游", "slug": "family" },
+    { "id": 5, "name": "逻辑训练", "slug": "logic" },
+    { "id": 6, "name": "创意表达", "slug": "creativity" },
+    { "id": 7, "name": "5-8岁", "slug": "age-5-8" },
+    { "id": 8, "name": "8-12岁", "slug": "age-8-12" },
+    { "id": 9, "name": "12岁+", "slug": "age-12-plus" },
+    { "id": 10, "name": "2人游戏", "slug": "2-players" },
+    { "id": 11, "name": "3-5人", "slug": "3-5-players" },
+    { "id": 12, "name": "6人+", "slug": "6-plus-players" }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "为什么桌游是孩子最好的逻辑训练场？",
+      "slug": "why-board-games-logic-training",
+      "excerpt": "很多家长问我，怎么培养孩子的逻辑思维？我的答案从来不是刷题，而是——让他们玩桌游。在一局《璀璨宝石》里，孩子要做多少次因果判断？资源管理、优先级排序、条件推理……这些能力不是靠背诵获得的。",
+      "content": "很多家长问我，怎么培养孩子的逻辑思维？我的答案从来不是刷题，而是——让他们玩桌游。\n\n在一局《璀璨宝石》里，孩子要做多少次因果判断？资源管理、优先级排序、条件推理……这些能力不是靠背诵获得的。\n\n我教了12年桌游课，见过太多孩子从\"不知道怎么选\"到\"我有三个方案，我选第二个\"。这个转变，不是因为他们变聪明了，而是因为桌游给了他们一个安全的决策训练场。\n\n## 桌游中的逻辑训练有多自然？\n\n策略桌游的核心就是**因果关系**：如果我拿这张牌，对手就能拿那张；如果我存资源，这一轮就没产出。孩子不需要知道什么叫\"因果推理\"，他们在游戏中反复经历，自然就内化了。\n\n## 三个实用的家庭玩法建议\n\n1. **复盘时问\"为什么\"**：每局结束，别急着收。问孩子\"你那一步为什么这么选？\"——这就是在训练论证构建。\n2. **允许犯错**：桌游的好处是犯错成本低。让孩子体验\"选错了\"的后果，比说教一百遍\"你要想清楚\"有用。\n3. **换位思考**：玩完后让孩子站在对手角度分析——这是最自然的批判性思维训练。",
+      "cover_image": "/images/articles/logic-training.jpg",
+      "category_id": 1,
+      "tag_ids": [5, 4, 7],
+      "published": true,
+      "reading_time": 5
+    },
+    {
+      "id": 2,
+      "title": "《卡坦岛》教学指南：从第一次交易到策略觉醒",
+      "slug": "catan-teaching-guide",
+      "excerpt": "卡坦岛是很多孩子的\"策略启蒙桌游\"。但教的时候有个坑——别急着讲规则，先让他们自己发现交易的力量。这篇文章分享我带了超过200场卡坦岛之后总结的教学节奏。",
+      "content": "卡坦岛是很多孩子的\"策略启蒙桌游\"。但教的时候有个坑——别急着讲规则，先让他们自己发现交易的力量。\n\n这篇文章分享我带了超过200场卡坦岛之后总结的教学节奏。\n\n## 第一步：先玩半局\"简化版\"\n\n去掉发展卡，只保留基础资源交易和建路建房。让孩子先感受到\"我需要羊毛但你不需要砖\"的交换动力。\n\n## 第二步：引入交易谈判\n\n当孩子开始主动说\"我用两个羊毛换你一个砖\"的时候，你的策略课就开始了。这时候引导他们思考：\n- 为什么你觉得两个羊毛值一个砖？\n- 对方为什么愿意/不愿意？\n- 有没有更好的交易对象？\n\n## 第三步：加入发展卡\n\n当基础循环跑通后，发展卡自然引入了\"信息不对称\"——你不知道对手手里有什么牌。这是训练概率直觉的好时机。\n\n## 教学场景 vs 家庭场景\n\n**教学场景**：可以安排4人局，明确分工（资源管理者、交易谈判者），每局40分钟。\n\n**家庭场景**：3人即可，节奏放慢，允许家长做\"友好交易\"降低挫败感。",
+      "cover_image": "/images/articles/catan-guide.jpg",
+      "category_id": 2,
+      "tag_ids": [1, 11, 8],
+      "published": true,
+      "reading_time": 6
+    },
+    {
+      "id": 3,
+      "title": "秒评《骆驼大赛》：骰子带来的爆笑概率课",
+      "slug": "camel-up-review",
+      "excerpt": "骆驼大赛是我见过最好的\"概率入门桌游\"——不需要孩子懂什么是概率，但玩完之后他们自然理解了\"可能性\"。骰子塔一转，全场沸腾。",
+      "content": "骆驼大赛是我见过最好的\"概率入门桌游\"——不需要孩子懂什么是概率，但玩完之后他们自然理解了\"可能性\"。\n\n骰子塔一转，全场沸腾。\n\n## 为什么推荐？\n\n- **5分钟上手**：规则极简，掷骰子→骆驼前进→下注\n- **概率直觉训练**：孩子很快发现\"领先的不一定赢\"——因为骆驼可以叠罗汉\n- **社交互动强**：每次骰子结果都引发尖叫或叹息\n\n## 教育价值\n\n| 能力维度 | 训练方式 |\n|---------|--------|\n| 概率思维 | 观察哪些骆驼更可能获胜 |\n| 风险评估 | 下注早收益高但风险大 |\n| 情绪管理 | 领先被反超的挫折体验 |\n\n## 适合谁？\n\n- 年龄：8岁+\n- 人数：3-8人（最佳5-6人）\n- 时长：20-30分钟\n- 类型：欢乐/毛线/派对\n\n一句话总结：如果你只想买一盒让孩子理解\"不确定性\"的桌游，就它了。",
+      "cover_image": "/images/articles/camel-up-review.jpg",
+      "category_id": 3,
+      "tag_ids": [4, 6, 8],
+      "published": true,
+      "reading_time": 3
+    },
+    {
+      "id": 4,
+      "title": "玩AI课程：用桌游让AI素养可触摸",
+      "slug": "play-ai-course-intro",
+      "excerpt": "我的\"玩AI\"课程不是教孩子编程，而是用桌游让他们理解AI的边界——什么是AI能做的，什么是人必须做的。5-12岁，五大章节，从专注力到规则意识。",
+      "content": "我的\"玩AI\"课程不是教孩子编程，而是用桌游让他们理解AI的边界——什么是AI能做的，什么是人必须做的。\n\n## 课程核心框架\n\n五大章节，对应五大核心能力：\n\n1. **专注力（信息筛选）**：在信息过载中找到关键信号\n2. **情绪管理（自我调节与AI交互）**：识别情绪、管理预期\n3. **数理思维（问题解决与算法直觉）**：不写代码但理解算法逻辑\n4. **判断与决策（风险判断与选择能力）**：在不确定中做选择\n5. **规则意识（AI边界感与使用素养）**：知道什么时候该用人脑\n\n## 为什么用桌游？\n\n因为AI素养的本质不是知识，而是**思维方式**。而桌游是训练思维方式最自然的载体——\n\n- 策略桌游训练的就是\"在不确定条件下做决策\"（和AI交互的核心）\n- 合作桌游训练的就是\"理解他人的意图\"（和AI协作的核心）\n- 规则桌游训练的就是\"边界感\"（使用AI的核心素养）\n\n## 课程信息\n\n- 适合年龄：5-12岁\n- 形式：线下小班（6-8人）\n- 课时：共16次，每周1次，每次90分钟\n- 咨询：红薯老师微信/小红书私信",
+      "cover_image": "/images/articles/play-ai-course.jpg",
+      "category_id": 4,
+      "tag_ids": [5, 6, 7],
+      "published": true,
+      "reading_time": 4
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "name": "卡坦岛",
+      "slug": "catan",
+      "cover_image": "/images/games/catan.jpg",
+      "description": "在卡坦岛上，玩家通过掷骰子获取资源，建设道路和村庄，发展自己的领地。核心乐趣在于玩家之间的交易谈判——你需要的资源永远在别人手里。",
+      "rules": "1. 初始设置：按规则放置两座村庄和两条道路\n2. 回合流程：掷骰子→收集资源→交易→建设\n3. 建设：道路（1砖1木）、村庄（1砖1木1麦1羊）、城市（2麦3矿）\n4. 发展卡：花费1羊1麦1矿购买，可获特殊能力\n5. 获胜：率先获得10分的玩家获胜",
+      "usage_guide": "教学场景：首次建议4人局，允许开放式交易（所有人可见手牌），降低谈判门槛。第二轮开始限制为两人私下交易。\n\n家庭场景：3人即可，家长可以做\"善意交易\"引导孩子体验资源交换的乐趣。注意不要替孩子做决定，让他们自己评估交易价值。",
+      "min_players": 3,
+      "max_players": 4,
+      "min_age": 10,
+      "play_time": 75,
+      "game_types": ["策略", "交易", "资源管理"],
+      "highlight": "资源管理与交易谈判的经典策略桌游"
+    },
+    {
+      "id": 2,
+      "name": "璀璨宝石",
+      "slug": "splendor",
+      "cover_image": "/images/games/splendor.jpg",
+      "description": "玩家扮演文艺复兴时期的珠宝商，收集宝石筹码购买发展卡，发展卡本身又能提供永久折扣——这就是\"引擎构建\"：你的购买力越滚越强。",
+      "rules": "1. 回合行动（三选一）：拿3个不同宝石 / 拿2个相同宝石（库存≥4时）/ 购买1张发展卡\n2. 手牌上限10个宝石筹码，超了必须还\n3. 发展卡提供永久1个对应宝石折扣\n4. 贵族卡：当发展卡满足贵族条件时自动获得，值3分\n5. 获胜：率先获得15分的玩家触发最后一轮",
+      "usage_guide": "教学场景：2-3人最佳。第一局建议不解释策略，让孩子自己发现\"原来买这张卡以后买别的就便宜了\"——这就是引擎构建的核心直觉。\n\n家庭场景：2人局非常适合亲子对弈，规则简单但策略深度足够。可以引导孩子思考\"你现在最缺什么颜色？\"",
+      "min_players": 2,
+      "max_players": 4,
+      "min_age": 10,
+      "play_time": 30,
+      "game_types": ["策略", "引擎构建"],
+      "highlight": "优雅的引擎构建游戏，用宝石购买更多宝石"
+    },
+    {
+      "id": 3,
+      "name": "骆驼大赛",
+      "slug": "camel-up",
+      "cover_image": "/images/games/camel-up.jpg",
+      "description": "五只颜色各异的骆驼在赛道上奔跑，但骆驼可以骑到别的骆驼背上一起前进！下注哪只骆驼会赢，但领先的不一定笑到最后。",
+      "rules": "1. 回合行动（四选一）：掷1个骰子（拿1硬币）/ 下注某色骆驼本轮领先 / 下注某色骆驼最终获胜/落败 / 移动沙漠板块\n2. 掷骰子：从骰子塔随机取一个颜色骰子，对应骆驼前进1-3步\n3. 叠罗汉：移动的骆驼如果遇到其他骆驼，会驮着它们一起走\n4. 本轮领先下注：回合结束时按顺序结算，最早下注奖励最高\n5. 获胜：游戏结束时有最多硬币的玩家获胜",
+      "usage_guide": "教学场景：5-6人最佳氛围。重点引导孩子观察\"哪只骆驼位置最有利\"而不是\"哪只在最前面\"——因为叠罗汉机制，下面的骆驼可能突然反超。\n\n家庭场景：轻松愉快，适合全家一起玩。可以让孩子负责摇骰子塔，增加参与感。下注环节是讨论\"可能性\"的最佳时机。",
+      "min_players": 3,
+      "max_players": 8,
+      "min_age": 8,
+      "play_time": 25,
+      "game_types": ["欢乐", "派对", "概率"],
+      "highlight": "骰子塔+叠罗汉骆驼，最欢乐的概率入门桌游"
+    }
+  ],
+  "keywords": [
+    { "id": 1, "word": "策略思维", "link_url": "/games?tag=strategy", "link_type": "game", "weight": 5 },
+    { "id": 2, "word": "合作桌游", "link_url": "/games?tag=cooperative", "link_type": "game", "weight": 4 },
+    { "id": 3, "word": "空间推理", "link_url": "/games?tag=spatial", "link_type": "game", "weight": 3 },
+    { "id": 4, "word": "亲子桌游", "link_url": "/games?tag=family", "link_type": "game", "weight": 5 },
+    { "id": 5, "word": "逻辑训练", "link_url": "/blog?tag=logic", "link_type": "blog", "weight": 4 },
+    { "id": 6, "word": "创意表达", "link_url": "/blog?tag=creativity", "link_type": "blog", "weight": 3 },
+    { "id": 7, "word": "执行功能", "link_url": "/blog?tag=teaching", "link_type": "blog", "weight": 4 },
+    { "id": 8, "word": "自我决定理论", "link_url": "/blog?tag=teaching", "link_type": "blog", "weight": 2 },
+    { "id": 9, "word": "认知里程碑", "link_url": "/blog?tag=teaching", "link_type": "blog", "weight": 3 },
+    { "id": 10, "word": "概率思维", "link_url": "/blog?tag=logic", "link_type": "blog", "weight": 4 },
+    { "id": 11, "word": "批判性思维", "link_url": "/blog?tag=logic", "link_type": "blog", "weight": 5 },
+    { "id": 12, "word": "5-8岁推荐", "link_url": "/games?tag=age-5-8", "link_type": "game", "weight": 4 },
+    { "id": 13, "word": "8-12岁推荐", "link_url": "/games?tag=age-8-12", "link_type": "game", "weight": 4 },
+    { "id": 14, "word": "规则意识", "link_url": "/blog?tag=course", "link_type": "blog", "weight": 3 },
+    { "id": 15, "word": "AI素养", "link_url": "/blog?tag=course", "link_type": "blog", "weight": 5 },
+    { "id": 16, "word": "桌游设计", "link_url": "/blog?tag=course", "link_type": "blog", "weight": 3 },
+    { "id": 17, "word": "使用指南", "link_url": "/blog?tag=guide", "link_type": "blog", "weight": 4 },
+    { "id": 18, "word": "引擎构建", "link_url": "/games?tag=strategy", "link_type": "game", "weight": 2 },
+    { "id": 19, "word": "资源管理", "link_url": "/games?tag=strategy", "link_type": "game", "weight": 3 },
+    { "id": 20, "word": "情绪管理", "link_url": "/blog?tag=teaching", "link_type": "blog", "weight": 3 }
+  ]
+}
