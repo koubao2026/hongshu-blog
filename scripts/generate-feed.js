@@ -4,8 +4,8 @@ const fs = require('fs');
 const path = require('path');
 
 // 读取 sample-data.json 来生成 feed
-const dataPath = path.join(__dirname, 'src', 'data', 'sample-data.json');
-const outputPath = path.join(__dirname, 'out', 'feed.xml');
+const dataPath = path.join(__dirname, '..', 'src', 'data', 'sample-data.json');
+const outputPath = path.join(__dirname, '..', 'out', 'feed.xml');
 
 if (!fs.existsSync(dataPath)) {
   console.log('No sample-data.json found, skipping feed.xml generation');
@@ -38,7 +38,7 @@ ${items}
 </feed>`;
 
 // 确保 out 目录存在
-if (!fs.existsSync(path.join(__dirname, 'out'))) {
+if (!fs.existsSync(path.join(__dirname, '..', 'out'))) {
   console.log('out/ directory not found, skipping feed.xml generation');
   process.exit(0);
 }
